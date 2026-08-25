@@ -1,0 +1,5 @@
+# Suchmaschinen und zugelassene KI-Agents dürfen öffentliche Inhalte der Vereinsseite abrufen.
+User-agent: *
+Allow: /
+
+Sitemap: /sitemap.xml

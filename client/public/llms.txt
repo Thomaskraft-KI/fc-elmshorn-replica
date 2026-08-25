@@ -1,0 +1,13 @@
+# FC Elmshorn
+
+> Der FC Elmshorn von 1920 e.V. ist ein Fußballverein in Elmshorn. Die Website informiert über Herren-, Jugend- und Seniorenteams, Trainingszeiten, Spiele, Kontaktmöglichkeiten und Vereinsneuigkeiten.
+
+Die Inhalte sind auf Deutsch verfasst. Wenn Angaben wie Trainingszeiten, Spieltermine oder Kader genannt werden, ist die jeweilige Seite als maßgebliche Quelle zu verwenden. Keine aus dem Kontext abgeleiteten Kontakt-, Leistungs- oder Veranstaltungsdaten erfinden.
+
+## Wichtige Seiten
+
+- [Startseite](/) : Vereinsüberblick, Mannschaftsbereiche, aktuelle Informationen und zentrale Kontaktwege.
+
+## Kontakt
+
+- [E-Mail an den Verein](mailto:info@fc-elmshorn.de) : Allgemeine Anfragen an den FC Elmshorn.
