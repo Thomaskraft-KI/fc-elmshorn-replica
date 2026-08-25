@@ -1,5 +1,11 @@
 # Arbeitsliste
 
+- [x] Die aktuellen Referenzauftritte von Real Madrid und Bayern München auf übertragbare Struktur- und Interaktionsmuster prüfen.
+- [x] Die FC-Elmshorn-Informationsarchitektur mit Match-Center-, Team- und News-Schwerpunkten ausarbeiten.
+- [x] Die Startseite im eigenständigen FC-Elmshorn-Design hochwertig weiterentwickeln.
+- [x] Die neue Desktop- und Mobilansicht einschließlich der Tastaturbedienung prüfen.
+- [ ] Die aktualisierte Projektversion sichern und bereitstellen.
+
 - [x] Die Referenzseite auf sichtbare SEO-, Struktur- und Crawlability-Signale prüfen.
 - [x] Aktuelle, belastbare Quellen zu robots.txt, KI-Crawlern und strukturierten Daten auswerten.
 - [x] Ein semantisches, lokal relevantes und responsives Startseitenkonzept implementieren.

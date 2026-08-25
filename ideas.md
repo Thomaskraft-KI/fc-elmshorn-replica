@@ -50,3 +50,15 @@ Die sichtbare Abfolge ist verbindlich: Kopfleiste mit Wappen und dunkler Navigat
 | Seiten-Dimmung | Ein halbtransparenter schwarzer Layer reduziert den Kontrast der gesamten Hintergrundseite deutlich, ohne sie vollständig zu verdecken. |
 | Beitragsrhythmus | Nach jedem redaktionellen Modul steht eine sehr feine horizontale Linie; Bild und Langtext werden in einer offenen Zweispaltenfolge kombiniert. |
 | Textgröße | Fließtext ist groß und luftiger als im Hero, Überschriften setzen wieder die klassische Serifenschrift ein. |
+
+## Weiterentwicklung: professioneller Vereinsauftritt
+
+Die Weiterentwicklung übernimmt keine Marken, Layouts oder Inhalte der großen Referenzvereine. Übertragen werden ausschließlich funktionsbezogene Muster: eine klar priorisierte Spitzenmeldung, ein schneller Zugang zu Spieltagen und Mannschaften, ein vielseitiger News-Feed und eine klare Unterscheidung zwischen Vereinsinformation und Handlungsangeboten.
+
+**Erweiterte Gestaltungsrichtung:** Der bestehende FC-Elmshorn-Auftritt wächst zu einem „Matchday Editorial“: Die lokale Vereinsfarbe Bordeaux bleibt Identitätsanker. Neu hinzukommen eine dynamische Ergebnis-/Match-Zone, ein deutlich artikulierter News-Rhythmus, modulare Teasergruppen und eine mobile Navigationslogik mit direktem Zugang zu Teams, Spielen und Kontakt.
+
+| Beobachtung | Übertragbarer Nutzen für FC Elmshorn | Bewusste Abgrenzung |
+| --- | --- | --- |
+| Real Madrid setzt die Hauptmeldung visuell dominant vor eine Reihe kleinerer News-Teaser. | Eine große Vereinsmeldung kann aktuelle Themen und Nachwuchsaktionen schneller sichtbar machen. | Keine Übernahme der weißen Vereinsoptik, des Rasters oder der Inhalte. |
+| Große Profi-Vereinsauftritte bündeln Service, Tickets, Teams und Medien in schnellen Einstiegen. | FC Elmshorn erhält klar strukturierte Schnelleinstiege für Spielplan, Teams, Training und Kontakt. | Keine E-Commerce-, Membership- oder Ticket-Abläufe ohne reale Vereinsprozesse. |
+| Bayern München war in der Prüfung technisch nicht erreichbar; das öffentliche Informationsangebot bestätigt jedoch den Schwerpunkt auf News, Tickets, Shop und Clubwelt. | Die universellen Muster „News, Matchday, Teams, Verein“ werden als lokale, nicht-kommerzielle Informationsarchitektur adaptiert. | Kein Kopieren von Bayerns Marke, Texten, Bildsprache oder Seitengestaltung. |
