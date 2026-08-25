@@ -1,5 +1,9 @@
 # Arbeitsliste
 
+- [x] Die verfügbaren Sponsorenangaben auf der bisherigen Vereinsseite in eine markenkonforme Darstellung überführen.
+- [x] Einen eigenständigen Sponsorenbereich im FC-Elmshorn-Auftritt ergänzen.
+- [x] Die neue Sektion auf Desktop und Mobil prüfen und die Projektversion sichern.
+
 - [x] Die aktuellen Referenzauftritte von Real Madrid und Bayern München auf übertragbare Struktur- und Interaktionsmuster prüfen.
 - [x] Die FC-Elmshorn-Informationsarchitektur mit Match-Center-, Team- und News-Schwerpunkten ausarbeiten.
 - [x] Die Startseite im eigenständigen FC-Elmshorn-Design hochwertig weiterentwickeln.

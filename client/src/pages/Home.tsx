@@ -35,6 +35,21 @@ const navigation = [
   { label: "Kontakt", href: "#kontakt" },
 ];
 
+const sponsors = [
+  "Stadtwerke Elmshorn",
+  "Sparkasse Elmshorn",
+  "Semmelhaack",
+  "Radiologie Elmshorn",
+  "florabox elmshorn",
+  "SHINO GmbH",
+  "Fahrschule Schäfer",
+  "Futterhaus",
+  "bauexpert",
+  "DBL Ahrens",
+  "Autoglas",
+  "Karakus Metzgerei",
+];
+
 const teamDetails = {
   Herren: {
     title: "Herren",
@@ -206,13 +221,24 @@ export default function Home() {
           <div className="film-stat"><span>1920</span><p>Gemeinsam verwurzelt.<br />Gemeinsam in Bewegung.</p></div>
         </section>
 
+        <section className="sponsorship-section" id="sponsoren" aria-labelledby="sponsors-title">
+          <div className="sponsor-intro">
+            <div><p className="section-kicker">UNSERE PARTNER</p><h2 id="sponsors-title">Gemeinsam<br /><em>für Elmshorn.</em></h2></div>
+            <p>Der FC Elmshorn bedankt sich bei den Unternehmen, die den Verein, seine Mannschaften und das Vereinsleben nachhaltig unterstützen.</p>
+          </div>
+          <ul className="sponsor-grid" aria-label="Partner des FC Elmshorn">
+            {sponsors.map((sponsor, index) => <li key={sponsor} className={`sponsor-mark sponsor-mark-${index % 4}`}><span>{sponsor}</span></li>)}
+          </ul>
+          <div className="sponsor-bottom"><p>Sie möchten den lokalen Fußball fördern?</p><a href="mailto:info@fc-elmshorn.de?subject=Partnerschaft%20mit%20dem%20FC%20Elmshorn">Partner werden <ArrowRight aria-hidden="true" size={16} /></a></div>
+        </section>
+
         <section className="contact-section" id="kontakt" aria-labelledby="contact-title">
           <div><p className="section-kicker light">KONTAKT &amp; ANFAHRT</p><h2 id="contact-title">Wir freuen uns<br />auf dich.</h2></div>
           <div className="contact-links"><a href="mailto:info@fc-elmshorn.de"><Mail aria-hidden="true" size={18} /><span><small>Schreib uns</small>info@fc-elmshorn.de</span><ArrowRight aria-hidden="true" size={16} /></a><a href="https://www.google.com/maps/search/?api=1&query=FC+Elmshorn" target="_blank" rel="noreferrer"><MapPin aria-hidden="true" size={18} /><span><small>Vereinsgelände</small>Anfahrt zum Platz</span><ArrowRight aria-hidden="true" size={16} /></a></div>
         </section>
       </main>
 
-      <footer className="site-footer" id="sponsoren">
+      <footer className="site-footer">
         <div className="footer-brand"><img src={crestImage} alt="Stilisiertes Wappen des FC Elmshorn" /><div><strong>FC ELMSHORN</strong><span>von 1920 e.V.</span></div></div>
         <div className="footer-center"><p>Gemeinsam Fußball erleben — für Jung &amp; Alt.</p><span>2026 © FC Elmshorn</span></div>
         <div className="footer-links"><a href="#datenschutz">Datenschutz</a><button type="button" onClick={() => setCookiesOpen(true)}>Cookie-Einstellungen</button></div>
