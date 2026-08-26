@@ -1,0 +1,101 @@
+/*
+ * Stilnotiz: Ergänzt die ruhige bordeauxfarbene FC-Elmshorn-Sponsorengalerie
+ * um präzise Licht-, Lift- und Wortmarkenbewegungen ohne fremde Markenästhetik.
+ */
+
+.sponsor-mark {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  transform: translateZ(0);
+  transition:
+    background-color 220ms var(--ease-out),
+    color 220ms var(--ease-out),
+    box-shadow 220ms var(--ease-out),
+    transform 220ms var(--ease-out),
+    border-color 220ms var(--ease-out);
+}
+
+.sponsor-wordmark {
+  position: relative;
+  z-index: 2;
+  transform: translateY(0);
+  transition: transform 220ms var(--ease-out), letter-spacing 220ms var(--ease-out);
+}
+
+.sponsor-signature {
+  position: absolute;
+  z-index: 2;
+  left: 1rem;
+  bottom: .85rem;
+  color: currentColor;
+  font-size: .46rem;
+  font-weight: 700;
+  letter-spacing: .17em;
+  opacity: 0;
+  text-transform: uppercase;
+  transform: translateY(6px);
+  transition: opacity 180ms var(--ease-out), transform 220ms var(--ease-out);
+}
+
+.sponsor-arrow {
+  position: absolute;
+  z-index: 2;
+  top: .9rem;
+  right: .9rem;
+  opacity: 0;
+  transform: translate(-5px, 5px);
+  transition: opacity 180ms var(--ease-out), transform 220ms var(--ease-out);
+}
+
+.sponsor-glow {
+  position: absolute;
+  z-index: 1;
+  inset: -40%;
+  opacity: 0;
+  background: linear-gradient(115deg, transparent 35%, rgba(255,255,255,.18) 49%, transparent 63%);
+  transform: translateX(-68%) rotate(12deg);
+  transition: opacity 180ms var(--ease-out), transform 540ms var(--ease-out);
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .sponsor-grid:hover .sponsor-mark:not(:hover) {
+    opacity: .58;
+    filter: saturate(.74);
+  }
+
+  .sponsor-mark:hover {
+    z-index: 3;
+    background: var(--wine);
+    color: #fff;
+    border-color: var(--wine);
+    box-shadow: 0 14px 28px rgba(63, 4, 13, .2);
+    transform: translateY(-7px) scale(1.018);
+  }
+
+  .sponsor-mark:hover .sponsor-wordmark {
+    letter-spacing: -.025em;
+    transform: translateY(-8px);
+  }
+
+  .sponsor-mark:hover .sponsor-signature,
+  .sponsor-mark:hover .sponsor-arrow {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+  .sponsor-mark:hover .sponsor-glow {
+    opacity: 1;
+    transform: translateX(68%) rotate(12deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sponsor-mark,
+  .sponsor-wordmark,
+  .sponsor-signature,
+  .sponsor-arrow,
+  .sponsor-glow {
+    transition: none;
+  }
+}

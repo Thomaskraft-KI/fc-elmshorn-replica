@@ -227,7 +227,14 @@ export default function Home() {
             <p>Der FC Elmshorn bedankt sich bei den Unternehmen, die den Verein, seine Mannschaften und das Vereinsleben nachhaltig unterstützen.</p>
           </div>
           <ul className="sponsor-grid" aria-label="Partner des FC Elmshorn">
-            {sponsors.map((sponsor, index) => <li key={sponsor} className={`sponsor-mark sponsor-mark-${index % 4}`}><span>{sponsor}</span></li>)}
+            {sponsors.map((sponsor, index) => (
+              <li key={sponsor} className={`sponsor-mark sponsor-mark-${index % 4}`}>
+                <span className="sponsor-glow" aria-hidden="true" />
+                <span className="sponsor-wordmark">{sponsor}</span>
+                <span className="sponsor-signature" aria-hidden="true">FCE Partner</span>
+                <ArrowRight className="sponsor-arrow" aria-hidden="true" size={15} />
+              </li>
+            ))}
           </ul>
           <div className="sponsor-bottom"><p>Sie möchten den lokalen Fußball fördern?</p><a href="mailto:info@fc-elmshorn.de?subject=Partnerschaft%20mit%20dem%20FC%20Elmshorn">Partner werden <ArrowRight aria-hidden="true" size={16} /></a></div>
         </section>

@@ -1,5 +1,10 @@
 # Arbeitsliste
 
+- [x] Die vorhandenen Sponsorenkacheln und ihre Zustände prüfen.
+- [x] Moderne Hover-, Fokus- und Bewegungsdetails für die Sponsorenlogos ergänzen.
+- [x] Desktop-Interaktion und Einstellungen für reduzierte Bewegung prüfen.
+- [ ] Die animierte Sponsorenfläche sichern und bereitstellen.
+
 - [x] Die verfügbaren Sponsorenangaben auf der bisherigen Vereinsseite in eine markenkonforme Darstellung überführen.
 - [x] Einen eigenständigen Sponsorenbereich im FC-Elmshorn-Auftritt ergänzen.
 - [x] Die neue Sektion auf Desktop und Mobil prüfen und die Projektversion sichern.
